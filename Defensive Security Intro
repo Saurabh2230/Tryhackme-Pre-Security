@@ -1,1 +1,83 @@
+Task 1 Introduction to Defensive Security 
 
+In this room, we will examine its counterpart, defensive security. It is concerned with two main tasks:
+
+Preventing intrusions from occurring
+Detecting intrusions when they occur and responding properly
+
+Some of the tasks that are related to defensive security include:
+
+User cyber security awareness: Training users about cyber security helps protect against attacks targeting their systems.
+Documenting and managing assets: We need to know the systems and devices we must manage and protect adequately.
+Updating and patching systems: Ensuring that computers, servers, and network devices are correctly updated and patched against any known vulnerability (weakness).
+Setting up preventative security devices: firewall and intrusion prevention systems (IPS) are critical components of preventative security. Firewalls control what network traffic can go inside and what can leave the system or network. IPS blocks any network traffic that matches present rules and attack signatures.
+Setting up logging and monitoring devices: Proper network logging and monitoring are essential for detecting malicious activities and intrusions. If a new unauthorized device appears on our network, we should be able to detect it.
+There is much more to defensive security. Aside from the above, we will also cover the following related topics:
+
+Security Operations Center (SOC)
+Threat Intelligence
+Digital Forensics and Incident Response (DFIR)
+Malware Analysis
+
+Answer the questions below
+Which team focuses on defensive security?
+
+ANSWER:- Blue team
+
+Task 2 Areas of Defensive Security
+
+In this task, we will cover two main topics related to defensive security:
+
+Security Operations Center (SOC), where we cover Threat Intelligence
+Digital Forensics and Incident Response (DFIR), where we also cover Malware Analysis
+
+Security Operations Center (SOC)
+A Security Operations Center (SOC) is a team of cyber security professionals that monitors the network and its systems to detect malicious cyber security events. Some of the main areas of interest for a SOC are:
+
+Vulnerabilities: Whenever a system vulnerability (weakness) is discovered, it is essential to fix it by installing a proper update or patch. When a fix is unavailable, the necessary measures should be taken to prevent an attacker from exploiting it. Although remediating vulnerabilities is vital to a SOC, it is not necessarily assigned to them.
+Policy violations: A security policy is a set of rules required to protect the network and systems. For example, it might be a policy violation if users upload confidential company data to an online storage service.
+Unauthorized activity: Consider the case where a user’s login name and password are stolen, and the attacker uses them to log into the network. A SOC must detect and block such an event as soon as possible before further damage is done.
+Network intrusions: No matter how good your security is, there is always a chance for an intrusion. An intrusion can occur when a user clicks on a malicious link or when an attacker exploits a public server. Either way, when an intrusion occurs, we must detect it as soon as possible to prevent further damage.
+
+Threat Intelligence
+In this context, intelligence refers to information you gather about actual and potential enemies. A threat is any action that can disrupt or adversely affect a system. Threat intelligence collects information to help the company better prepare against potential adversaries. The purpose would be to achieve a threat-informed defence. Different companies have different adversaries. Some adversaries might seek to steal customer data from a mobile operator; however, other adversaries are interested in halting the production in a petroleum refinery.
+
+Digital Forensics and Incident Response (DFIR)
+This section is about Digital Forensics and Incident Response (DFIR), and we will cover:
+
+Digital Forensics
+Incident Response
+1. Preparation
+2. Detection and Analysis
+3. Containment and recovery
+4. Post Incident activity
+
+Malware Analysis
+Malware stands for malicious software. Software refers to programs, documents, and files you can save on a disk or send over the network.
+
+Answer the questions below
+What would you call a team of cyber security professionals that monitors a network and its systems for malicious events?
+
+ANSWER:- Security Operations Center
+
+What does DFIR stand for?
+
+ANSWER:- Digital Forensics and Incident Response
+
+Which kind of malware requires the user to pay money to regain access to their files?
+
+ANSWER:- ransomware
+
+TASK 3 Practical Example of Defensive Security
+
+The Scenario
+
+Let us pretend you are a Security Operations Center (SOC) analyst responsible for protecting a bank. This bank's SOC uses a Security Information and Event Management (SIEM) tool, which gathers security-related information and events from various sources and presents them in one dashboard. If the SIEM finds something suspicious, an alert will be generated.
+
+Open the static website 
+siem dashboard is accessible
+find malicious IP address which is 143.110.250.149
+Assign this IP address to SOC team
+Soc will block this IP addresss
+And you successfully Capture the Flag 
+The flag is THM{THREAT-BLOCKED}
