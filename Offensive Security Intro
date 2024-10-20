@@ -1,5 +1,31 @@
-What is Offensive Security?
+TASK1 What is Offensive Security?
 
 Beginning Your Learning Journey
 
 In this TryHackMe room, you will be guided through hacking your first website in a legal and safe environment. The goal is to show you how an ethical hacker operates.
+
+TASK2 Hacking your first machine?
+Step 1. Open A Terminal
+
+A terminal, also known as the command line, allows us to interact with a computer without using a graphical user interface. On the machine, open the terminal by clicking on the Terminal icon on the right of the screen.
+
+Step 2. Use Gobuster To Find Hidden Website Pages
+
+step 3
+You should have found a secret bank transfer page that allows you to transfer money between bank accounts (/bank-transfer). Type the hidden page into the FakeBank website using the browser's address bar.
+
+Step 4
+
+our mission is to transfer $2000 from bank account 2276 to your account (account number 8881). If your transfer was successful, you should now be able to see your new balance reflected on your account page.
+
+Answer the questions below
+Above your account balance, you should now see a message indicating the answer to this question. Can you find the answer you need?
+
+the answer of above question is BANK-HACKED
+
+Task 3 Careers in cyber security?
+
+In this room, we've talked about offensive security and guided you through hacking your first website in a safe environment. You learned how to use Gobuster to find hidden pages in the target website and transferred a considerable amount of (fake) money to your account.
+
+This is just a glimpse of the challenges you can expect as a member of the offensive security team. However, We want to reiterate that an ethical hacker's goal is to identify loopholes and report them so that the defensive security team can fix them.
+
